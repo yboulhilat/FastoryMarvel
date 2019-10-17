@@ -23,7 +23,7 @@ const ActorDetail = ({ actor }) => {
   return (
     <Row className='col-12'>
       <Col className='col-4'>
-      <img src={'https://image.tmdb.org/t/p/w500' + actor.profile_path}/>
+        <img src={'https://image.tmdb.org/t/p/w500' + actor.profile_path} alt={'...'}/>
       </Col>
       <Col className='col-8'>
       <Card className='justify-content-start align-items-start'>
